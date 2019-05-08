@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/apple-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/img/favicon.png"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Catalysis - Accelerating the IoT</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/gaia.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Entre em contato!</h2>
+        </div>
+        <div class="modal-body" style="margin: 5px 5px 5px 5px;">
+          <form action="https://formspree.io/contato.catalysis@gmail.com" method="POST">
+          
+            <div class="row" style="margin: auto; width: 80%;">
+              <div class="col">
+                <label class="text-light">Nome Completo</label>
+                <input type="text" name="Nome:" class="form-control" placeholder="Nome Completo">
+              </div>
+            </div>
+            
+            <div class="row" style="margin: auto; width: 80%;">
+              <div class="col">
+                <label class="text-light">Email</label>
+                <input type="email" name="Email:" class="form-control" placeholder="Geek@catalysis.dev">
+              </div>
+            </div>
+            
+            <div class="row" style="margin: auto; width: 80%;">
+              <div class="col">
+                <label class="text-light">Empresa</label>
+                <input type="text" name="Empresa:" class="form-control" placeholder="Catalysis">
+              </div>
+            </div>
+            
+            <div class="row" style="margin: auto; width: 80%;">
+              <div class="col">
+                <label class="text-light">Telefone para contato</label>
+                <input type="text" name="Telefone:" class="form-control" placeholder="(48) 99954-4430">
+              </div>
+            </div>
+            
+            <div class="row" style="margin: auto; width: 80%;">
+              <div class="col">
+                <label class="text-light">Mensagem</label>
+                <textarea name="message" name="Sobre o contato:" type="text" class="form-control mb-4" rows="5" placeholder="Mensagem"></textarea>
+              </div>
+            </div>
+            
+      
+            <div class="row" style="margin: auto; width: 40%;">
+              <input type="submit" class="btn btn-danger btn-fill btn-lg btn-block">
+            </div>
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+            <img src="assets/img/favicon.png" style="max-width:75px">
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" color-on-scroll="200">
+      <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            id="menu-toggle"
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#example"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+            <img src="assets/img/catalysis.png" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right navbar-uppercase">
+            <li>
+              <a href="index.html#home">Home</a>
+            </li>
+            <li>
+              <a href="index.html#sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="index.html#projetos">Projetos</a>
+            </li>
+            <li>
+              <a href="index.html#contato">Contato</a>
+            </li>
+            <li>
+              <a
+                onclick="function()"
+                class="btn btn-danger btn-fill"
+                id="myBtn" 
+                >Log in</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="section section-header hero" id="home">
+      <div class="parallax filter filter-color-white">
+        <div class="container">
+          <div class="content">
+            <div class="title-area">
+              <h1 class="title-modern">
+                Desenvolvemos produtos IoT em 45 dias, do conceito ao
+                primeiro protótipo.
+              </h1>
+            </div>
+            <div class="button-get-started">
+              <a href="index.html#sobre" class="btn btn-red btn-fill btn-lg">
+                Saiba mais
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div class="section" id="sobre">
+        <div class="container">
+            <div class="title-area">
+                <h2>Apresente protótipos, não slides</h2>
+                <div class="separator separator-danger">∎</div>
+                <p class="description">Através da aplicação de metodologias ágeis, comumente utilizadas para o desenvolvimento de software, acompanhamos nosso cliente desde a concepção do produto, passando por projeto e implementação, até a validação dos resultados, e estamos preparados para auxiliá-lo na adaptação para produção em escala.</p>
+            </div>
+          <div class="content">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="info-icon">
+              <div class="icon">
+                <img src="assets/img/g905.png">
+                <!--<i class="pe-7s-graph1"></i>-->
+              </div>
+              <h3>Análise de requisitos e especificação</h3>
+              <p class="description">
+                  Auxiliamos desde a concepção do seu projeto elencando requisitos e especificações chaves acelerando o processo de desenvolvimento.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info-icon">
+              <div class="icon">
+                <img src="assets/img/g1601.png">
+                <!--<i class="pe-7s-note2"></i>-->
+              </div>
+              <h3>Projeto e desenvolvimento</h3>
+              <p class="description">
+                  Focamos no desenvolvimento de requisitos e especificações críticos garantindo maior agilidade e segurança.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info-icon">
+              <div class="icon">
+                <img src="assets/img/g1058.png">
+                <!--<i class="pe-7s-music"></i>-->
+              </div>
+              <h3>Acompanhamento dos resultados</h3>
+              <p class="description">
+                  A plataforma online de acompanhamento aproxima o cliente do processo produtivo garantindo iterações mais rápidas e diminuindo custo de retrabalho.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info-icon">
+              <div class="icon">
+                <img src="assets/img/g1185.png" >
+                <!--<i class="pe-7s-music"></i>-->
+              </div>
+              <h3>Adaptações para produção</h3>
+              <p class="description">
+                  Uma vez testado e validado, auxiliamos o cliente na transição de um protótipo conceitual para um produto que pode ser serializado em uma ODM(Original Design Manufacturer).
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    
+    <div class="section" id="projetos">
+        <div class="container">
+            <div class="title-area">
+                <h2>Projetos realizados</h2>
+                <div class="separator separator-danger">∎</div>
+            </div>
+          <div class="content">
+            <div class="team">
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card card-member">
+                        <div class="content">
+                          <div class="avatar avatar-danger">
+                            <img
+                              alt="..."
+                              class="img-circle"
+                              src="assets/img/Nissan.png"
+                              
+                            />
+                          </div>
+                          <div class="description">
+                            <h3 class="title">Nissan</h3>
+                            <p class="small-text">BESS</p>
+                            <p class="description">
+                                A visão de um futuro mais sustentável da Nissan para seus carros elétricos culminou na necessidade 
+                                de atribuir uma segunda vida para as baterias utilizadas. Nesse projeto, foi desenvolvido um 
+                                sistema de gerenciamento de baterias (BMS) para rearranjar as baterias dos carros em um sistema de 
+                                backup para a sala VIP do stand da Nissan no Salão Internacional do Automóvel em 2018. 
+                              <br>
+                              <br>
+                            
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card card-member">
+                        <div class="content">
+                          <div class="avatar avatar-danger">
+                            <img
+                              alt="..."
+                              class="img-circle"
+                              src="assets/img/seazone.png"
+                            />
+                          </div>
+                          <div class="description">
+                            <h3 class="title">Seazone</h3>
+                            <p class="small-text">Acesso inteligente</p>
+                            <p class="description">
+                                A Seazone é uma empresa que observou a necessidade de pequenos locatários em resorts e condomínios
+                                 a locarem seus imóveis de forma a otimizar lucros através de análise de big data. A fim de 
+                                 modernizar e escalar esse segmento, um sistema de controle de acesso dedicado e integrado na 
+                                 nuvem se fez necessário. 
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card card-member">
+                        <div class="content">
+                          <div class="avatar avatar-danger">
+                            <img
+                              alt="..."
+                              class="img-circle"
+                              src="assets/img/seashell.png"
+                            />
+                          </div>
+                          <div class="description">
+                            <h3 class="title">Seashell</h3>
+                            <p class="small-text">Nemo</p>
+                            <p class="description">
+                                A Seashell é uma plataforma que auxilia desenvolvedores e gerentes de frota durante todo o ciclo 
+                                de vida de um equipamento IoT. Através do seu serviço é possível desenvolver rápido, gerenciar 
+                                de forma segura e escalar rapidamente. Para demonstrar seu potencial para possíveis clientes o Nemo 
+                                foi desenvolvido. Uma plataforma acessível e flexível que permite demonstrar os serviços prestados 
+                                a potenciais clientes.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!--
+    <div class="section section-our-clients-freebie">
+      <div class="container">
+        <div class="title-area">
+          <h2>Clientes satisfeitos</h2>
+          <div class="separator separator-danger">∎</div>
+        </div>
+
+        <ul class="nav nav-text" role="tablist">
+          <li class="active">
+            <a href="#testimonial1" role="tab" data-toggle="tab">
+              <div class="image-clients">
+                <img
+                  alt="..."
+                  class="img-circle"
+                  src="assets/img/faces/face_5.jpg"
+                />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#testimonial2" role="tab" data-toggle="tab">
+              <div class="image-clients">
+                <img
+                  alt="..."
+                  class="img-circle"
+                  src="assets/img/faces/face_6.jpg"
+                />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#testimonial3" role="tab" data-toggle="tab">
+              <div class="image-clients">
+                <img
+                  alt="..."
+                  class="img-circle"
+                  src="assets/img/faces/face_2.jpg"
+                />
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="testimonial1">
+            <p class="name">John Doe</p>
+            <p class="name">Nissan, São Paulo</p>
+            <p class="description">
+              And I used a period because contrary to popular belief I strongly
+              dislike exclamation points! We no longer have to be scared of the
+              truth feels good to be home In Roman times the artist would
+              contemplate proportions and colors. Now there is only one
+              important color... Green I even had the pink polo I thought I was
+              Kanye I promise I will never let the people down. I want a better
+              life for all!
+            </p>
+          </div>
+          <div class="tab-pane" id="testimonial2">
+            <p class="name">Gustavo Kremer</p>
+            <p class="name">Seazone, Florianópolis</p>
+            <p class="description">
+              Green I even had the pink polo I thought I was Kanye I promise I
+              will never let the people down. I want a better life for all! And
+              I used a period because contrary to popular belief I strongly
+              dislike exclamation points! We no longer have to be scared of the
+              truth feels good to be home In Roman times the artist would
+              contemplate proportions and colors. Now there is only one
+              important color...
+            </p>
+          </div>
+          <div class="tab-pane" id="testimonial3">
+            <p class="name">Gabriel Manoel</p>
+            <p class="name">LMM</p>
+            <p class="description">
+              I used a period because contrary to popular belief I strongly
+              dislike exclamation points! We no longer have to be scared of the
+              truth feels good to be home In Roman times the artist would
+              contemplate proportions and colors. The 'Gaia' team did a great
+              work while we were collaborating. They provided a vision that was
+              in deep connection with our needs and helped us achieve our goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="section section-small section-get-started">
+      <div class="parallax filter">
+        <div
+          class="image"
+          style="background-image: url('assets/img/office-1.jpeg')"
+        ></div>
+        <div class="container">
+          <div class="title-area">
+            <h2 class="text-white">Tire a sua ideia do papel!</h2>
+            <!-- <div class="separator line-separator">♦</div>
+                    <p class="description"> We are keen on creating a second skin for anyone with a sense of style! We design our clothes having our customers in mind and we never disappoint!</p> -->
+          </div>
+
+          <div class="button-get-started" id="myBtn1">
+            <a class="btn btn-danger btn-fill btn-lg"
+              >Fale conosco</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer footer-big footer-color-black" data-color="black" id="contato">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3">
+            <div class="info">
+              <nav>
+                <img src="assets/img/favicon.png" href="#" style="width: 100%; max-width: 200px; display: block; margin-left: auto; margin-right: auto;">
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1 col-sm-3">
+            <div class="info">
+              <h5 class="title">Contato</h5>
+              <nav>
+                <ul>
+                  <li>
+                    Email:
+                  </li>
+                  <li>
+                    contato.catalysis@gmail.com
+                  </li>
+                  <li>
+                    Telefone:
+                  </li>
+                  <li>
+                    (48) 99954-4430
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+
+          </div>
+          <div class="col-md-2 col-md-offset-1 col-sm-3">
+            <div class="info">
+              
+              <nav>
+                <ul>
+                  <li>
+                    
+                  </li>
+                  <li>
+                    
+                  </li>
+                  <li>
+                    
+                  </li>
+                  <li>
+                    
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Catalysis - Feito com &#x2764 em Floripa
+        </div>
+      </div>
+    </footer>  
+  </body>
+
+  <!--   core js files    -->
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+  <!--  js library for devices recognition -->
+  <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+  <!--  script for google maps   
+  <script
+    type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js"
+  ></script> -->
+
+  <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+  <script type="text/javascript" src="assets/js/gaia.js"></script>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the button that opens the modal
+  var btn1 = document.getElementById("myBtn1");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  btn1.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
+</script>
+
+<script>
+
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+</script>
+
+<style>
+  /* The Modal (background) */
+  .modal {
+  /*display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  min-height: calc(100vh - 60px);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #333333;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #333333;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+</style>
+
+
+</html>
