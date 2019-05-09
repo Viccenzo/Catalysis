@@ -40,41 +40,34 @@
     
     <!-- The Modal -->
     <div id="myModal" class="modal">
-
       <!-- Modal content -->
       <div class="modal-content">
         <div class="modal-header">
           <span class="close">&times;</span>
-          <h2>Entre em contato!</h2>
+          <h2>Entre em contato</h2>
+          <p>aaaaa</p>
         </div>
         <div class="modal-body" style="margin: 5px 5px 5px 5px;">
           <form action="https://formspree.io/contato.catalysis@gmail.com" method="POST">
           
             <div class="row" style="margin: auto; width: 80%;">
               <div class="col">
-                <label class="text-light">Nome Completo</label>
-                <input type="text" name="Nome:" class="form-control" placeholder="Nome Completo">
+                <label class="text-light">Nome</label>
+                <input type="text" name="Nome:" class="form-control" placeholder="Nome">
               </div>
             </div>
             
             <div class="row" style="margin: auto; width: 80%;">
               <div class="col">
                 <label class="text-light">Email</label>
-                <input type="email" name="Email:" class="form-control" placeholder="Geek@catalysis.dev">
+                <input type="email" name="Email:" class="form-control" placeholder="Email">
               </div>
             </div>
             
             <div class="row" style="margin: auto; width: 80%;">
               <div class="col">
-                <label class="text-light">Empresa</label>
-                <input type="text" name="Empresa:" class="form-control" placeholder="Catalysis">
-              </div>
-            </div>
-            
-            <div class="row" style="margin: auto; width: 80%;">
-              <div class="col">
-                <label class="text-light">Telefone para contato</label>
-                <input type="text" name="Telefone:" class="form-control" placeholder="(48) 99954-4430">
+                <label class="text-light">Telefone</label>
+                <input type="text" name="Telefone:" class="form-control" placeholder="Telefone">
               </div>
             </div>
             
@@ -84,16 +77,10 @@
                 <textarea name="message" name="Sobre o contato:" type="text" class="form-control mb-4" rows="5" placeholder="Mensagem"></textarea>
               </div>
             </div>
-            
-      
             <div class="row" style="margin: auto; width: 40%;">
               <input type="submit" class="btn btn-danger btn-fill btn-lg btn-block">
             </div>
-            
           </form>
-        </div>
-        <div class="modal-footer">
-            <img src="assets/img/favicon.png" style="max-width:75px">
         </div>
       </div>
     </div>
@@ -125,12 +112,6 @@
               <a href="index.html#home">Home</a>
             </li>
             <li>
-              <a href="index.html#sobre">Sobre</a>
-            </li>
-            <li>
-              <a href="index.html#projetos">Projetos</a>
-            </li>
-            <li>
               <a href="index.html#contato">Contato</a>
             </li>
             <li>
@@ -153,12 +134,12 @@
           <div class="content">
             <div class="title-area">
               <h1 class="title-modern">
-                Desenvolvemos produtos IoT em 45 dias, do conceito ao
+                Desenvolvemos seu projeto IoT em 45 dias, do conceito ao
                 primeiro protótipo.
               </h1>
             </div>
             <div class="button-get-started">
-              <a href="index.html#sobre" class="btn btn-red btn-fill btn-lg">
+              <a href="index.html#como-funciona" class="btn btn-red btn-fill btn-lg">
                 Saiba mais
               </a>
             </div>
@@ -168,81 +149,115 @@
     </div>
 
 
-
-     <div class="section" id="sobre">
-        <div class="container">
-            <div class="title-area">
-                <h2>Apresente protótipos, não slides</h2>
-                <div class="separator separator-danger">∎</div>
-                <p class="description">Através da aplicação de metodologias ágeis, comumente utilizadas para o desenvolvimento de software, acompanhamos nosso cliente desde a concepção do produto, passando por projeto e implementação, até a validação dos resultados, e estamos preparados para auxiliá-lo na adaptação para produção em escala.</p>
-            </div>
-          <div class="content">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="info-icon">
-              <div class="icon">
-                <img src="assets/img/g905.png">
-                <!--<i class="pe-7s-graph1"></i>-->
-              </div>
-              <h3>Análise de requisitos e especificação</h3>
-              <p class="description">
-                  Auxiliamos desde a concepção do seu projeto elencando requisitos e especificações chaves acelerando o processo de desenvolvimento.
-              </p>
-            </div>
+    
+    <div class="section" id="como-funciona">
+      <div class="container">
+          <div class="title-area">
+              <h2>Como funciona</h2>
+              <div class="separator separator-danger">∎</div>
+              <p class="description">Através da aplicação de metodologias ágeis, acompanhamos nosso cliente desde a concepção do produto, passando por projeto e implementação, até a validação dos resultados.</p>
           </div>
-          <div class="col-md-3">
-            <div class="info-icon">
-              <div class="icon">
-                <img src="assets/img/g1601.png">
-                <!--<i class="pe-7s-note2"></i>-->
+        <div class="content">
+          <div class="team">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card card-member">
+                      <div class="content">
+                        <div class="icon">
+                          <img src="assets/img/g1601.png">
+                        </div>
+                        <div class="description">
+                          <h3 class="title">Identificação de requisitos</h3>
+                          <p class="small-text">A partir de interações diretas, formalizamos as expectativas do cliente para o projeto, e juntos construimos um documento de requisitos.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card card-member card-stage">
+                      <div class="content">
+                        <div class="icon">
+                          <img src="assets/img/g1601.png">
+                        </div>
+                        <div class="description">
+                          <h3 class="title">Projeto e implementação</h3>
+                          <p class="small-text">A partir dos requisitos identificados, nossa equipe realiza o projeto do produto, fazendo uso da nossa vasta coleção de componentes de hardware e software de baixo nível.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card card-member">
+                      <div class="content">
+                        <div class="icon">
+                          <img src="assets/img/g1601.png">
+                        </div>
+                        <div class="description">
+                          <h3 class="title">Testes e validação</h3>
+                          <p class="small-text">Gerenciador de baterias</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card card-member">
+                      <div class="content">
+                        <div class="icon">
+                          <img src="assets/img/g1601.png">
+                        </div>
+                        <div class="description">
+                          <h3 class="title">Adaptações e produção</h3>
+                          <p class="small-text">Gerenciador de baterias</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h3>Projeto e desenvolvimento</h3>
-              <p class="description">
-                  Focamos no desenvolvimento de requisitos e especificações críticos garantindo maior agilidade e segurança.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="info-icon">
-              <div class="icon">
-                <img src="assets/img/g1058.png">
-                <!--<i class="pe-7s-music"></i>-->
-              </div>
-              <h3>Acompanhamento dos resultados</h3>
-              <p class="description">
-                  A plataforma online de acompanhamento aproxima o cliente do processo produtivo garantindo iterações mais rápidas e diminuindo custo de retrabalho.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="info-icon">
-              <div class="icon">
-                <img src="assets/img/g1185.png" >
-                <!--<i class="pe-7s-music"></i>-->
-              </div>
-              <h3>Adaptações para produção</h3>
-              <p class="description">
-                  Uma vez testado e validado, auxiliamos o cliente na transição de um protótipo conceitual para um produto que pode ser serializado em uma ODM(Original Design Manufacturer).
-              </p>
             </div>
           </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    
+
+
+
     <div class="section" id="projetos">
         <div class="container">
             <div class="title-area">
-                <h2>Projetos realizados</h2>
+                <h2>Nossos clientes</h2>
                 <div class="separator separator-danger">∎</div>
+                <p class="description">Conheça algumas das empresas que já se beneficiaram dos nossos serviços de engenharia.</p>
             </div>
           <div class="content">
             <div class="team">
               <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                   <div class="row">
-                    <div class="col-md-4">
-                      <div class="card card-member">
+                      <div class="col-md-3">
+                          <div class="card card-member card-customer">
+                            <div class="content">
+                              <div class="avatar avatar-danger">
+                                <img
+                                  alt="..."
+                                  class="img-circle"
+                                  src="assets/img/mobilis.png"
+                                  
+                                />
+                              </div>
+                              <div class="description">
+                                <h3 class="title">Mobilis</h3>
+                                <p class="small-text">Gerenciador de baterias</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    <div class="col-md-3">
+                      <div class="card card-member card-customer">
                         <div class="content">
                           <div class="avatar avatar-danger">
                             <img
@@ -254,22 +269,13 @@
                           </div>
                           <div class="description">
                             <h3 class="title">Nissan</h3>
-                            <p class="small-text">BESS</p>
-                            <p class="description">
-                                A visão de um futuro mais sustentável da Nissan para seus carros elétricos culminou na necessidade 
-                                de atribuir uma segunda vida para as baterias utilizadas. Nesse projeto, foi desenvolvido um 
-                                sistema de gerenciamento de baterias (BMS) para rearranjar as baterias dos carros em um sistema de 
-                                backup para a sala VIP do stand da Nissan no Salão Internacional do Automóvel em 2018. 
-                              <br>
-                              <br>
-                            
-                            </p>
+                            <p class="small-text">Gerenciador de baterias</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4">
-                      <div class="card card-member">
+                    <div class="col-md-3">
+                      <div class="card card-member card-customer">
                         <div class="content">
                           <div class="avatar avatar-danger">
                             <img
@@ -280,23 +286,13 @@
                           </div>
                           <div class="description">
                             <h3 class="title">Seazone</h3>
-                            <p class="small-text">Acesso inteligente</p>
-                            <p class="description">
-                                A Seazone é uma empresa que observou a necessidade de pequenos locatários em resorts e condomínios
-                                 a locarem seus imóveis de forma a otimizar lucros através de análise de big data. A fim de 
-                                 modernizar e escalar esse segmento, um sistema de controle de acesso dedicado e integrado na 
-                                 nuvem se fez necessário. 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                            </p>
+                            <p class="small-text">Controle de acesso IoT</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4">
-                      <div class="card card-member">
+                    <div class="col-md-3">
+                      <div class="card card-member card-customer">
                         <div class="content">
                           <div class="avatar avatar-danger">
                             <img
@@ -307,14 +303,7 @@
                           </div>
                           <div class="description">
                             <h3 class="title">Seashell</h3>
-                            <p class="small-text">Nemo</p>
-                            <p class="description">
-                                A Seashell é uma plataforma que auxilia desenvolvedores e gerentes de frota durante todo o ciclo 
-                                de vida de um equipamento IoT. Através do seu serviço é possível desenvolver rápido, gerenciar 
-                                de forma segura e escalar rapidamente. Para demonstrar seu potencial para possíveis clientes o Nemo 
-                                foi desenvolvido. Uma plataforma acessível e flexível que permite demonstrar os serviços prestados 
-                                a potenciais clientes.
-                            </p>
+                            <p class="small-text">Gateway IoT industrial</p>
                           </div>
                         </div>
                       </div>
@@ -328,170 +317,43 @@
       </div>
     </div>
 
-
-
-  <!--
-    <div class="section section-our-clients-freebie">
-      <div class="container">
-        <div class="title-area">
-          <h2>Clientes satisfeitos</h2>
-          <div class="separator separator-danger">∎</div>
-        </div>
-
-        <ul class="nav nav-text" role="tablist">
-          <li class="active">
-            <a href="#testimonial1" role="tab" data-toggle="tab">
-              <div class="image-clients">
-                <img
-                  alt="..."
-                  class="img-circle"
-                  src="assets/img/faces/face_5.jpg"
-                />
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#testimonial2" role="tab" data-toggle="tab">
-              <div class="image-clients">
-                <img
-                  alt="..."
-                  class="img-circle"
-                  src="assets/img/faces/face_6.jpg"
-                />
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#testimonial3" role="tab" data-toggle="tab">
-              <div class="image-clients">
-                <img
-                  alt="..."
-                  class="img-circle"
-                  src="assets/img/faces/face_2.jpg"
-                />
-              </div>
-            </a>
-          </li>
-        </ul>
-
-        <div class="tab-content">
-          <div class="tab-pane active" id="testimonial1">
-            <p class="name">John Doe</p>
-            <p class="name">Nissan, São Paulo</p>
-            <p class="description">
-              And I used a period because contrary to popular belief I strongly
-              dislike exclamation points! We no longer have to be scared of the
-              truth feels good to be home In Roman times the artist would
-              contemplate proportions and colors. Now there is only one
-              important color... Green I even had the pink polo I thought I was
-              Kanye I promise I will never let the people down. I want a better
-              life for all!
-            </p>
-          </div>
-          <div class="tab-pane" id="testimonial2">
-            <p class="name">Gustavo Kremer</p>
-            <p class="name">Seazone, Florianópolis</p>
-            <p class="description">
-              Green I even had the pink polo I thought I was Kanye I promise I
-              will never let the people down. I want a better life for all! And
-              I used a period because contrary to popular belief I strongly
-              dislike exclamation points! We no longer have to be scared of the
-              truth feels good to be home In Roman times the artist would
-              contemplate proportions and colors. Now there is only one
-              important color...
-            </p>
-          </div>
-          <div class="tab-pane" id="testimonial3">
-            <p class="name">Gabriel Manoel</p>
-            <p class="name">LMM</p>
-            <p class="description">
-              I used a period because contrary to popular belief I strongly
-              dislike exclamation points! We no longer have to be scared of the
-              truth feels good to be home In Roman times the artist would
-              contemplate proportions and colors. The 'Gaia' team did a great
-              work while we were collaborating. They provided a vision that was
-              in deep connection with our needs and helped us achieve our goals.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="section section-small section-get-started">
-      <div class="parallax filter">
-        <div
-          class="image"
-          style="background-image: url('assets/img/office-1.jpeg')"
-        ></div>
+    <div class="section section-small section-get-started" id="cta">
         <div class="container">
-          <div class="title-area">
-            <h2 class="text-white">Tire a sua ideia do papel!</h2>
-            <!-- <div class="separator line-separator">♦</div>
-                    <p class="description"> We are keen on creating a second skin for anyone with a sense of style! We design our clothes having our customers in mind and we never disappoint!</p> -->
-          </div>
+            <div class="title-area">
+                <h2 class="text-white">Tire a sua ideia do papel!</h2>
+                <!-- <div class="separator line-separator">♦</div>
+                        <p class="description"> We are keen on creating a second skin for anyone with a sense of style! We design our clothes having our customers in mind and we never disappoint!</p> -->
+              </div>
+    
+              <div class="button-get-started" id="myBtn1">
+                <a class="btn btn-danger btn-fill btn-lg"
+                  >Fale conosco</a
+                >
+              </div>
+            </div>
+            </div>
 
-          <div class="button-get-started" id="myBtn1">
-            <a class="btn btn-danger btn-fill btn-lg"
-              >Fale conosco</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <footer class="footer footer-big footer-color-black" data-color="black" id="contato">
       <div class="container">
         <div class="row">
-          <div class="col-md-2 col-sm-3">
-            <div class="info">
-              <nav>
-                <img src="assets/img/favicon.png" href="#" style="width: 100%; max-width: 200px; display: block; margin-left: auto; margin-right: auto;">
-              </nav>
-            </div>
-          </div>
-          <div class="col-md-3 col-md-offset-1 col-sm-3">
+          <div class="col-md-12" styles="text-align: center;">
             <div class="info">
               <h5 class="title">Contato</h5>
               <nav>
                 <ul>
                   <li>
-                    Email:
-                  </li>
-                  <li>
-                    contato.catalysis@gmail.com
-                  </li>
-                  <li>
-                    Telefone:
-                  </li>
-                  <li>
-                    (48) 99954-4430
+                    contato@catalysis.dev
                   </li>
                 </ul>
               </nav>
             </div>
           </div>
           <div class="col-md-3 col-sm-3">
-
           </div>
           <div class="col-md-2 col-md-offset-1 col-sm-3">
             <div class="info">
-              
-              <nav>
-                <ul>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                </ul>
-              </nav>
             </div>
           </div>
         </div>
